@@ -1,13 +1,4 @@
 {
   "products": [],
-  "cart": [
-    {
-      "image": "http://localhost:3000/imgs/img5.webp",
-      "title": "Silk Drape Blouse",
-      "price": "$189.00",
-      "quantity": 1,
-      "basePrice": 189,
-      "totalPrice": 189
-    }
-  ]
+  "cart": []
 }
