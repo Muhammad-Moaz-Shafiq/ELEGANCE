@@ -67,7 +67,7 @@ document.querySelector('.cart-overlay').addEventListener('click', () => {
 });
 
 // Add to cart
-async function addToCart(product) {
+async function addToCart(product)  {
     const quantity = parseInt(document.querySelector('#quantity').value);
     const existingItem = cart.find(item => item.title === product.title);
     const price = parseFloat(product.price.replace('$', '')); 
@@ -84,7 +84,7 @@ async function addToCart(product) {
     }
     await saveCart();
     updateCartDisplay();
-    showNotification(`Added ${quantity} ${quantity === 1 ? 'item' : 'items'} to cart`);
+    showNotification (`Added ${quantity} ${quantity === 1 ? 'item' : 'items'} to cart`);
 }
 
 // Update quantity

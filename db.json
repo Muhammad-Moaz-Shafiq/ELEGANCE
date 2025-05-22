@@ -1,17 +1,4 @@
 {
   "products": [],
-<<<<<<< HEAD
   "cart": []
-=======
-  "cart": [
-    {
-      "image": "http://localhost:3000/imgs/img5.webp",
-      "title": "Silk Drape Blouse",
-      "price": "$189.00",
-      "quantity": 1,
-      "basePrice": 189,
-      "totalPrice": 189
-    }
-  ]
->>>>>>> a63d9dd (Added vercel.json to fix 404 routing)
 }
